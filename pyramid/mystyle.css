@@ -1,0 +1,21 @@
+#pyramid {
+    font-family: "Courier New", monospace;
+    line-height: 0;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    background: brown;
+    margin: 1px 3px;
+    display: inline-block;
+}
+
+.space {
+    height: 20px;
+    width: 20px;
+    background: white;
+    margin: 0px 3px;
+    display: inline-block;
+}
+
