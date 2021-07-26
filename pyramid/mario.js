@@ -1,3 +1,4 @@
+// Creating Pyramid version 1
 function draw_pyramid(height) {
     let pyramid_scope = document.getElementById('pyramid');
     for (let i = 1; i < height; i++) {
@@ -42,3 +43,4 @@ function draw_pyramid_3(height) {
     }
 }
 
+draw_pyramid(10)
