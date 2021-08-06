@@ -1,4 +1,6 @@
+
 body {
+    background-color: gray;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -9,12 +11,13 @@ body {
     margin: 0;
 }
 
+
 .box1 {
     display: flex;
     background: #006400;
     width: 90vh;
     height: 50%;
-    border: 2px solid #000;
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
     /* text-align: center; */
     justify-content: center;
