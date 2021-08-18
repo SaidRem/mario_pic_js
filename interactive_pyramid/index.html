@@ -12,16 +12,24 @@
 
         <div class="header">PYRAMID</div>
         <div class="box1">
-            Choice: &nbsp;
+            Material: &nbsp;
             <select>
                 <option value="1" selected>&#10066;</option>
                 <option value="2">&#64;</option>
                 <option value="3">&#22291;</option>
                 <option value="4">&#10054;</option>
             </select>
-            &nbsp;&nbsp;&nbsp;&nbsp;Amount: &nbsp;&nbsp;
+            Amount: 
             <div class="slidecontainer">
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+
+                <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
+                    <input name="flevel" id="flying" type="range" min="10" max="100" value="10" step="1">
+                    <output for="flying" name="level" id='range_out'>10</output>
+                </form>
+
+               
+<span id="rangeValue">0</span>
             </div>
         </div>
 
