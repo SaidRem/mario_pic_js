@@ -2,35 +2,34 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         
-        <title>Mario Pyramid</title>
+        <title>Mario's Pyramid</title>
+
     </head>
     <body>
 
-        <div class="header">PYRAMID</div>
-        <div class="box1">
-            Material: &nbsp;
-            <select>
-                <option value="1" selected>&#10066;</option>
-                <option value="2">&#64;</option>
-                <option value="3">&#22291;</option>
-                <option value="4">&#10054;</option>
-            </select>
-            Amount: 
-            <div class="slidecontainer">
-
-
-                <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
-                    <input name="flevel" id="flying" type="range" min="10" max="100" value="10" step="1">
-                    <output for="flying" name="level" id='range_out'>10</output>
+        <div class="header">Mario's Pyramid</div>
+        <div class="controls">
+            
+                <form action="">
+                    <div class="setup-item">
+                        <label for="pyramid-symbol">Brick Symbol:</label>
+                        <select name="pyramid-symbol" id="pyramid-symbol">
+                            <option value="1" selected>&#10066;</option>
+                            <option value="2">&#64;</option>
+                            <option value="3">&#22291;</option>
+                            <option value="4">&#10054;</option>
+                        </select>
+                    </div>
+                    <div class="setup-item">
+                        <label for="pyramyd-height">Amount:</label>
+                        <input type="range" id="pyramyd-height" name="height" min="1" max="20" step="1">
+                        <span id="height-value"></span>
+                    </div>
                 </form>
-
-               
-<span id="rangeValue">0</span>
-            </div>
+            
         </div>
 
         <script src="script.js"></script>
