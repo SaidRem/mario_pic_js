@@ -20,7 +20,7 @@ body {
     font-size: 30px;
   }
 
-.box1 {
+.controls {
     display: flex;
     background: #FAEBD7;
     border: 2px solid #000;
@@ -28,5 +28,6 @@ body {
     justify-content: center;
     align-items: center;
     color: #DAA520;
-    margin: 2px;
+    
 }
+
